@@ -1,0 +1,6 @@
+{
+  "name": "A Arca de Noé — Livro para Colorir",
+  "description": "Landing page de alta conversão para o livro digital infantil A Arca de Noé",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

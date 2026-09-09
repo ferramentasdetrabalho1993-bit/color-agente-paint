@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --font-heading: 'Nunito', sans-serif;
+  --font-body: 'Quicksand', sans-serif;
+
+  --color-primary: #3b82f6; /* Azul profundo */
+  --color-primary-light: #93c5fd; /* Azul céu suave */
+  --color-accent: #f59e0b; /* Amarelo dourado */
+  --color-secondary: #10b981; /* Verde natural */
+  --color-sand: #fef3c7; /* Bege areia */
+  --color-wood: #78350f; /* Marrom madeira */
+}
+
+@layer base {
+  html {
+    font-family: var(--font-body);
+    scroll-behavior: smooth;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+  }
+}
